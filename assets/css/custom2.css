@@ -1,0 +1,97 @@
+/**
+ *
+ * Apply Here your Custom CSS
+ *
+*/
+
+body, h1, h2, h3, h4, h5 {
+    color:#73879C !important;
+}
+.system-logo{
+    width:50px;
+    margin-top: -8px;
+}
+
+.page-container .sidebar-menu #main-menu li ul > li > a {
+    padding-left: 60px;
+}
+
+.nav-md ul.nav.child_menu li ul li:before {
+    background: none !important;
+}
+
+.nav-md ul.nav.child_menu li ul li:after {
+    border-left: none !important;
+}
+
+li.dropdown.language-selector {
+    padding-top:4px;
+}
+
+.dropdown.language-selector span.label{
+    padding-top: .5em;
+}
+
+.dropdown.language-selector .label-success{
+    background: none;
+    /* color:#515356!important; */
+}
+.dropdown.language-selector i.entypo-globe{
+    vertical-align: middle;
+}
+.dropdown.language-selector i.entypo-down:before{
+    vertical-align: middle;
+}
+
+.sidebar-menu .opened.active > ul{
+    display: block !important;
+}
+
+.sidebar-menu  > ul > li > ul
+
+.main_container .top_nav {
+    display: block;
+    margin-left: 230px;
+}
+
+.top_nav .system_name{
+    /*float: left;*/
+    margin-top: 15px;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: #000;
+    /* text-shadow: 1px 1px 3px black; */
+}
+
+.top_nav ul > li span:not(.message
+), .top_nav ul > li i {
+    color: #666;
+}
+
+.table-responsive{
+    overflow: auto;
+}
+
+.message-overflow{
+    white-space: nowrap!important;
+    width: 90%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    box-sizing: border-box;
+}
+
+
+.profile_thumb{
+    overflow: hidden;
+    padding:0 !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar-right .img-circle.profile_img{
+    width:30px;
+    height:30px;
+    float:left;
+    margin: 0;
+    margin-right: 5px;
+}

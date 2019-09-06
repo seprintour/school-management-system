@@ -1,0 +1,241 @@
+/**
+ *
+ * Apply Here your Custom CSS
+ *
+*/
+
+body, h1, h2, h3, h4, h5 {
+    color:#73879C !important;
+}
+.system-logo{
+    width:50px;
+    margin-top: -8px;
+}
+.login-progressbar{
+    height: 10px !important;
+    background: none !important;
+    border-radius: 0;
+}
+.login-progressbar div{
+    height: 10px !important;
+}
+
+.progress-bar-danger{    
+    background-color:#4e7d2a !important;
+    opacity: .8;
+}
+
+.page-container .sidebar-menu #main-menu li ul > li > a {
+    padding-left: 60px;
+}
+
+.nav-md ul.nav.child_menu li ul li:before {
+    background: none !important;
+}
+
+.nav-md ul.nav.child_menu li ul li:after {
+    border-left: none !important;
+}
+
+li.dropdown.language-selector {
+    padding-top:4px;
+}
+
+.dropdown.language-selector span.label{
+    padding-top: .5em;
+}
+
+.dropdown.language-selector .label-success{
+    background: none;
+    /* color:#515356!important; */
+}
+.dropdown.language-selector i.entypo-globe{
+    vertical-align: middle;
+}
+.dropdown.language-selector i.entypo-down:before{
+    vertical-align: middle;
+}
+
+.sidebar-menu .opened.active > ul{
+    display: block !important;
+}
+
+.sidebar-menu  > ul > li > ul
+
+.main_container .top_nav {
+    display: block;
+    margin-left: 230px;
+}
+
+.top_nav .system_name{
+    /*float: left;*/
+    margin-top: 15px;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: #000;
+    /* text-shadow: 1px 1px 3px black; */
+}
+
+.top_nav ul > li span:not(.message
+), .top_nav ul > li i {
+    color: #666;
+}
+
+.table-responsive{
+    overflow: auto;
+}
+
+.message-overflow{
+    white-space: nowrap!important;
+    width: 90%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    box-sizing: border-box;
+}
+
+
+.profile_thumb{
+    overflow: hidden;
+    padding:0 !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar-right .img-circle.profile_img{
+    width:30px;
+    height:30px;
+    float:left;
+    margin: 0;
+    margin-right: 5px;
+}
+
+@media only screen and (max-width: 520px) {
+    .top_nav .system_name a img{
+        display: none;
+    }
+    .top_nav .system_name a{
+        font-size:3vw;
+    }
+
+
+}
+
+@media only screen and (max-width: 370px) {
+    .top_nav .system_name a{
+        display: none;
+    }
+    .top_nav .navbar-right{
+        margin-top: -20px !important;
+    }
+    .top_nav .navbar-right li{
+        margin-left: -3vw;
+        font-weight: bold;
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    .language-selector > .dropdown-toggle{
+        padding-left:0;
+        padding-right: 0;
+    }
+    .dropdown.language-selector span.label{
+        padding-left:0;
+        padding-right: 0;
+    }
+}
+
+@media only screen and (max-width: 305px) {
+    .dropdown.language-selector{
+        margin-top: -20px;
+    }
+    .language-selector > .dropdown-toggle{
+        padding:0;
+        padding: 0;
+    }
+    .dropdown.language-selector span.label{
+        padding:0;
+        padding: 0;
+    }
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f6f6f6;
+    padding-top:50px;
+}
+
+textarea{
+    resize: none;
+    height: 70px !important;
+}
+
+.control-label{
+    margin-top: 5px;
+}
+
+.panel{
+    margin: 20px auto;
+    max-width: 1000px;
+    /*    text-align: center;*/
+}
+
+.panel-heading{
+    border-bottom: solid 1px #ddd;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.install-step-group{
+    margin: 20px 0;
+}
+
+.install-step-group > div{
+    padding:0;
+}
+
+.circle{
+    background-color: #fff;
+    border: solid 3px #679368;
+    color: #679368;
+    width:38px;
+    text-align: center;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 50%;
+    margin: 10px 0;
+}
+
+.circle.active{
+    background-color: #679368;
+    color: #fff;
+    border:double 3px #fff;
+}
+
+.clear{
+    width: 100%;
+    clear: both;
+    height: 0;
+    float: none;
+}
+
+.tips{
+    color: #f00;
+}
+
+.step-line{
+    background-color:#679368;
+    height: 10px;
+    top:-35px;
+    left: 5px;
+    z-index: -1;
+    position: relative;
+}
+
+@media (max-width: 768px){
+    .install-step-group{
+        display: none;
+    }
+}

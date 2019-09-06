@@ -1,0 +1,43 @@
+
+body {
+
+  background:url(../images/banner.jpg) !important;
+}
+
+#loginbox {
+    min-height: 400px;
+    margin-top: 70px;
+}
+
+.alert {
+    margin-top: 20px;
+    width: 400px;
+}
+
+.login-bottom-link{
+    margin-bottom: 10px;
+}
+@media (max-width: 422px){
+  .msg-demo{
+    width: 100%;
+    /*display: none !important;*/
+  }
+}
+
+#form_login a:hover{
+    color:#37581d;
+}
+
+.btn-success:focus{
+    background-color: #456e25;
+}
+
+.form-login-error{
+    margin-top: 10px;
+    border-radius: 0 !important;
+}
+
+
+.theme-background-color{
+    background-color: #4e7d2a !important;
+}

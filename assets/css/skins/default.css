@@ -1,0 +1,74 @@
+/*#test{
+            height: 16px;width: 300px;border: none;color: #999;
+        }*/
+        body{
+            padding: 0;
+            margin: 0;
+        }
+        .area{
+            width: 730px;
+            height: 520px;
+            margin-top: 50px;
+            border: 1px solid #AAA;
+        }
+        .side{
+            width: 350px;
+            height: 500px;
+            margin-left: 10px;
+            margin-top: 10px;
+            border: 1px solid #AAA;
+            border-radius: 10px;
+            float: left;
+        }
+        img{
+            margin-top: 20px;
+        }
+        .title{
+            color: #176CB4;
+            margin-top: 16px;
+            font-weight: bold;
+        }
+        .title_bottom{
+            font-size: 14px;
+            color: #999;
+            font-weight: bold;
+        }
+        .photo{
+            /*border: 1px solid #AAA;*/
+            border-radius: 5px;
+            border: none;
+            margin-top: 4px;
+        }
+        .title input{
+            font-family: MS Reference Sans Serif;
+            font-size: 20px;
+            border: none;
+            text-align: center;
+            /*font: 22px Goudy Stout bold;*/
+        }
+        .title_bottom input{
+            border: none;
+            width: 300px;
+            text-align: center;
+        }
+        .name{
+            font-size: 20px;
+            color: #020230;
+            margin-top: 4px;
+            font-weight: bold;
+        }
+        .name input{
+            border: none;
+            width: 300px;
+            text-align: center;
+        }
+        label{
+            color: #2E4F4F;
+            height: 16px;
+        }
+        .detail{
+            margin-left: 28px;
+        }
+        .detail input{
+            color: #999;
+        }
